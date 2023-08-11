@@ -973,7 +973,7 @@ body{
         margin-left: 5vw;
     }
     .carouseldiv{
-        /* height:150vh; */
+        height:fit-content;
         width: 90vw;
     }
     .btncar{
@@ -1180,7 +1180,7 @@ body{
         margin-left: 5vw;
     }
     .carouseldiv{
-        /* height:150vh; */
+        height:fit-content;
         width: 90vw;
     }
     .btncar{
