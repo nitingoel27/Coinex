@@ -74,6 +74,13 @@
     border: none;
     background-color:rgba(237,238,245,.9);
 }
+.menucont{
+    display: none;
+    top: 10vh !important;
+    position: sticky !important;
+    z-index: 2 !important;
+
+}
 .subbody{
     margin-left: 7vw;
     margin-right: 3vw;
