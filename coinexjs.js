@@ -62,3 +62,17 @@ $('.buttonsforcarousel .lp').on('click',function(){
     $('.carouseltext1').css('display','none');
     $('.carouseltext4').css('display','block');
 })
+var count=0;
+
+$('.menu').on('click',function(){
+    // console.log("menu clicked");
+    count=count+1;
+    // console.log(count);
+    if(count%2===1){
+        // console.log("division "+count/2);
+        $('.menucont').css('display','block');
+    }
+    else{
+        $('.menucont').css('display','none');
+    }
+})
